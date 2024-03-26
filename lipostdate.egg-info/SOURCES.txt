@@ -1,0 +1,6 @@
+lipostdate.py
+setup.py
+lipostdate.egg-info/PKG-INFO
+lipostdate.egg-info/SOURCES.txt
+lipostdate.egg-info/dependency_links.txt
+lipostdate.egg-info/top_level.txt

@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: lipostdate
+Version: 0.0.1
+Summary: Python package for extracting the exact date from the linkedin post URLs
+Home-page: https://github.com/Volcano-Dragon/lipostdate
+Author: Garv Saxena
+Author-email: garvsaxena185@gmail.com
+License: UNKNOWN
+Description: LinkedIn Post Date Extractor is a Python package designed to streamline
+        the process of extracting the exact date from LinkedIn post URLs.
+        With the growing importance of timely information and the prevalence of LinkedIn as a platform for professional networking and content sharing,
+        this package provides a convenient solution for users who need to quickly retrieve the posting date of a LinkedIn article or post.
+        
+Keywords: linkedin,linkedin post dates,linkedin post extraction,linkedin post url
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
