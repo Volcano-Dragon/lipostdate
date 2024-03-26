@@ -22,15 +22,17 @@ import lipostdate as lp
 #prints the exact date and time of the post
 print(lp.getDate('https://www.linkedin.com/posts/volcano-dragon2004_linkedinskillassessment-activity-6966492522810339328-seGq?utm_source=share&utm_medium=member_desktop'))
 #Output: ['Sat Aug 20 02:04:08 2022']
+
 ```
+
 
 ### Ignore the exception for multiple occurrences of a 19-digit number.
 Post URLs contain 19-digit numbers, in which the first 41 bits are Unix time stamps. When more than one occurrence of a 19-digit number is in a link, the "ignore_exception=True" argument can ignore the exception.
 
-***Example***: https://www.linkedin.com/posts/volcano-dragon2004_linkedinskillassessment-activity-6966492522810339328-seGq?utm_source=share&utm_medium=member_desktop <br>
+***Example***: https://www.linkedin.com/posts/volcano-dragon2004_linkedinskillassessment-activity-6966492522810339328-seGq?utm_source=share&utm_medium=member_desktop<br>
 This link contains this "6966492522810339328" 19-digit number.
 
-**Set ignore_exception = False**:
+**Set ignore_exception = True**:<br>
   To ignore the exception for multiple occurrences of a 19-digit number. (Default = **False**)
 
 ```python
