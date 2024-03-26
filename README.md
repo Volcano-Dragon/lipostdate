@@ -28,7 +28,7 @@ print(lp.getDate('https://www.linkedin.com/posts/volcano-dragon2004_linkedinskil
 
 ### Ignore the exception for multiple occurrences of a 19-digit number.
 
-Post URLs contain 19-digit numbers, in which the first 41 bits are Unix time stamps. 
+Post URLs contain 19-digit number, in which the first 41 bits are Unix time stamp. 
 
 ***Example of 19-digit number***: ```https://www.linkedin.com/posts/volcano-dragon2004_linkedinskillassessment-activity-6966492522810339328-seGq?utm_source=share&utm_medium=member_desktop```<br>
 This link contains "6966492522810339328" 19-digit number.
